@@ -5,10 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
         downloadBtn.addEventListener('click', function(e) {
             e.preventDefault();
 
-            // Ruta del archivo
-            const pdfUrl = '../statics/CVKevinSantamaria.pdf'; 
+            const pdfUrl = 'CVKevinSantamaria.pdf'; 
 
-            // nueva pestaña
             const newTab = window.open(pdfUrl, '_blank');
             newTab.focus();
 
