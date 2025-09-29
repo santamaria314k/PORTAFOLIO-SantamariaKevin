@@ -390,3 +390,51 @@ h2::after {
         font-size: 1.5rem;
     }
 }
+
+
+
+/* moviles */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1rem;
+  }
+
+  .text-content {
+    align-items: center;
+  }
+
+  .slice {
+    font-size: 18px;
+    padding: 0.4em 0.8em;
+  }
+
+  .about-text {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .contact-info ul li, 
+  .social-links ul li {
+    justify-content: center;
+  }
+}
